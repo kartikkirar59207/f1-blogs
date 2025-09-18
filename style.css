@@ -1,0 +1,425 @@
+/*FONTS*/
+@font-face {
+    font-family:f1 ;
+    src: url("FONTS/Formula1-italic.ttf");}
+@font-face {
+    font-family:rb ;
+    src: url("FONTS/SansSerifBldFLF.otf");
+}
+@font-face {
+    font-family:merc ;
+    src: url("FONTS/Corporate A bold.otf");
+}
+@font-face {
+    font-family:ferrari ;
+    src: url("FONTS/FerroRosso.ttf");
+}
+@font-face {
+    font-family:mclaren ;
+    src: url("FONTS/A-space Black Demo.otf");
+}
+@font-face {
+    font-family:alpine ;
+    src: url("FONTS/Stereo Gothic 850.ttf");
+}
+@font-face {
+    font-family:kick ;
+    src: url("FONTS/kick-font.ttf");
+}
+@font-face {
+    font-family:haas;
+    src: url("FONTS/NeueHaasGrotDisp-55Roman-Trial.otf");
+}
+@font-face {
+    font-family:williams ;
+    src: url("FONTS/Neutraface\ Text\ Demi.otf");
+}
+@font-face {
+    font-family:aston;
+    src: url("FONTS/AstonMartin.ttf");
+}   
+/*NAV BAR*/
+.navbar{
+    border:solid;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    border-color:black;
+    border-width:5px;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+    display:flex;
+    position:sticky;
+    top:0px;
+    width: 100%;
+    font-family:"f1";
+    font-size: 30px;
+    text-align:center;
+    font-weight: bolder;
+    background-color:crimson;
+    margin: 0px;
+    height:50px;
+}
+    #home{
+    font-family:"f1";
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+}
+#teams{
+    font-family:"f1";
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+}
+#drivers{
+    font-family:"f1";
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+}
+#credits{
+    font-family:"f1";
+    font-size: 30px;
+    color:white;
+    text-align:center;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+}
+#calender{
+    font-family:"f1";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+}
+#year{
+    position:relative;
+    display:inline-block;
+    font-family:"f1";
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+}
+/*BODY*/
+body{
+    background:linear-gradient(white);
+    background-image:url("BACKGROUND/BACKGROUND.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.link{
+    font-family:"f1";
+    font-size: 30px;
+    color: blue;
+    text-align: right;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+    text-decoration: underline;}
+.social{
+    float:left;
+    font-family:"rb";
+    font-size: 40px;
+    color:red;
+    text-align:center;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+    text-decoration: underline;
+    margin-top:0px;
+}
+.linkt{
+    font-family:"f1";
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    font-weight: bolder;
+    display:linear;
+    margin: auto;
+    width: 50%;
+    text-decoration: none;
+    float:left;
+    text-align:centre;
+    border:none;
+}
+header{
+
+    font-family:"f1";
+    font-size: 95px;
+    color: white;
+    background-image: url("BACKGROUND/F1\ front\ back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    }
+   /*--------RED BULL--------*/ 
+    .img_rb{
+    float:left;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_rb{
+    font-family:"rb"; 
+    font-size:23px;
+    color:white;
+    margin-top:1px;}
+    .rb{
+    font-family:"rb";
+    color:rgb(44, 6, 133);
+    font-size:50px;
+    text-align:center;
+    font-weight: bolder;
+    background:linear-gradient(rgb(205, 40, 40),rgb(219, 219, 64));
+    border-style:solid;
+    border-width:5px;
+    border-color:darkblue;}
+    /*--------MERCEDES--------*/
+    .img_merc{
+    float:right;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_merc{
+    font-family:"merc";
+    font-size:24px;
+    color:white;
+    vertical-align:middle;
+    font-weight: bold;
+    margin-top:1px;}
+    .merc{
+    font-family:"merc";
+    color:rgb(1, 162, 255);
+    font-size:50px;
+    text-align:center;
+    font-weight: bolder;
+    background-color: black;
+    border-style:solid;
+    border-width:5px;
+    border-color:teal;}
+    /*--------FERRARI--------*/
+    .img_ferrari{
+    float:left;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_ferrari{
+    font-family:"ferrari";
+    font-size:27px;
+    color:white;
+    margin-top:1px;}
+    .sf{
+    font-family:"ferrari";
+    color:rgb(255, 2, 2);
+    font-size:50px;   
+    text-align:center;
+    font-weight:bolder;
+    background-color:lightyellow;
+    border-style:solid;
+    border-width:5px;
+    border-color:red;}
+    /*--------MCLAREN--------*/
+    .img_mclaren{
+    float:right;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_mclaren{
+    font-family:"mclaren";
+    font-size:20px;
+    color:white;
+    margin-top:1px;}
+    .mcl{
+    font-family:"mclaren";
+    color:rgb(255, 103, 2);
+    font-size:45px;
+    text-align:center;
+    font-weight: bolder;
+    background-color: black;
+    border-style:solid;
+    border-width:5px;
+    border-color:orange;}
+    /*--------ALP--------*/
+    .img_alpine{
+    float:left;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_alpine{
+    font-family:"alpine";
+    font-size:15px;
+    color:white;
+    margin-top:1px;}
+    .alp{
+    font-family:"alpine";
+    color:rgb(255, 0, 140);
+    font-size:40px;
+    text-align:center;
+    font-weight: bolder;
+    background-color:lightblue;
+    border-style:solid;
+    border-width:5px;
+    border-color:hotpink;}
+    /*--------ASTON--------*/
+    .img_aston{
+    float:right;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_aston{
+    font-family:"aston";
+    font-size:25px;
+    color:white;
+    margin-top:1px;
+    font-weight: bold;}
+    .aston{
+    font-family:"aston";
+    color:rgb(76, 192, 147);
+    font-size:50px;
+    text-align:center;
+    font-weight: bolder;
+    background-color:rgb(71, 72, 72);
+    border-style:solid;
+    border-width:5px;
+    border-color:teal;}
+    /*--------HAAS--------*/
+    .img_haas{
+    float:left;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_haas{
+    font-family:"f1";
+    font-size:22px;
+    color:white;
+    margin-top:1px;}
+    .haas{
+    font-family:"f1";
+    color:red;
+    font-size:50px;
+    text-align:center;
+    font-weight: bolder;
+    background-color:white;
+    border-style:solid;
+    border-width:5px;
+    border-color:red;}
+    /*--------KICK--------*/
+    .img_kick{
+    float:right;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_kick{
+    font-family:"f1";
+    font-size:21px;
+    color:white;
+    margin-top:1px;
+    }
+    .kick{
+    font-family:"kick";
+    color:rgb(0, 255, 17);
+    font-size:45px;
+    text-align:center;
+    font-weight: bolder;
+    background-color: black;
+    border-style:solid;
+    border-width:5px;
+    border-color:limegreen;}
+    /*--------WILLIAMS------*/
+    .img_williams{
+    float:left;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_williams{
+    font-family:"williams";
+    font-size:25px;
+    color:white;
+    margin-top:1px;}
+    .williams{
+    font-family:"willaims";
+    color:white;
+    font-size:45px;
+    text-align:center;
+    font-weight: bolder;
+    background-color:black;
+    border-style:solid;
+    border-width:5px;
+    border-color:royalblue;}
+    /*--------RED BULL RACING--------*/
+    .img_rbulls{
+    float:right;
+    border:solid;
+    border-color:black;
+    border-width:4px;}
+    .para_rbulls{
+    font-family:"rb";
+    font-size:25px;
+    color:white;
+    margin-top:1px;}
+    .rbulls{
+    font-family:"rb";
+    color:rgb(31, 0, 142);
+    font-size:50px;
+    text-align:center;
+    font-weight: bolder;
+    background-color:white;
+    border-style:solid;
+    border-width:5px;
+    border-color:darkblue;}
+/*-----------------------------------VIDEOS----------------------------------------------------*/
+.vid_drivers{
+    padding-left:0px;
+    padding-right:0px;
+    object-fit: cover;
+    margin-left:0px;
+    margin-right:0px;
+    border:solid;
+    border-color:salmon;
+    border-width:5px;
+    border-radius:20px;
+    }
+.main_drivers{
+    font-family:"f1";
+    font-size: 30px;
+    color: white;
+    float:right;
+    text-align: center;
+    font-weight: bolder;
+    display:linear;
+    border:solid;
+    border-color:white;
+    border-width:5px;
+    width: 100%;
+    border-radius:20px;}    
