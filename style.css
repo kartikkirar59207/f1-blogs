@@ -399,17 +399,28 @@ header{
     border-width:5px;
     border-color:darkblue;}
 /*-----------------------------------VIDEOS----------------------------------------------------*/
-.vid_drivers{
+.img_drivers{
+    display:flex;
+    justify-content:center;
     padding-left:0px;
     padding-right:0px;
-    object-fit: cover;
     margin-left:0px;
     margin-right:0px;
     border:solid;
     border-color:salmon;
     border-width:5px;
-    border-radius:20px;
-    }
+    border-radius:20px;}
+.vid_drivers{
+    display:flex;
+    justify-content:center;
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-right:0px;
+    border:solid;
+    border-color:salmon;
+    border-width:5px;
+    border-radius:20px;}
 .main_drivers{
     font-family:"f1";
     font-size: 30px;
